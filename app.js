@@ -3,7 +3,7 @@ var fs = require('fs');
 var tmi = require('tmi.js');
 
 var obj;
-var channel = "leffen";
+var channel = ["leffen", "EEvisu"];
 
 // Read the file and send to the callback
 fs.readFile('characters.min.json', handleFile)
